@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Description"/>
+<fullyQualifiedTypeName name="com.hellowSpring.controller.HelloWorldImpl"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
+<fullyQualifiedTypeName name="com.helloSpring.Configuration.HelloWorldConfig"/>
+<fullyQualifiedTypeName name="com.hellowSpring.model.HelloWorld"/>
+<fullyQualifiedTypeName name="com.dependancyInjection.model.Messaging1"/>
+<fullyQualifiedTypeName name="com.dependancyInjection.model.Messaging"/>
+<fullyQualifiedTypeName name="com.dependancyInjection.Controller.Communication"/>
+<fullyQualifiedTypeName name="com.denpendancyInjection.model.Encryption"/>
+<fullyQualifiedTypeName name="org.springframework.context.support.AbstractApplicationContext"/>
+<fullyQualifiedTypeName name="com.denpendancyInjection.model.Communication"/>
+<fullyQualifiedTypeName name="java.lang.StrictMath"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="com.jdbcTemplate.Dao.EmployeeDao"/>
+<fullyQualifiedTypeName name="com.jdbctemplate.model.Employee"/>
+<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+<fullyQualifiedTypeName name="com.spring.model.Employee"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
+<fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+<fullyQualifiedTypeName name="com.spring.controller.EmployeeService"/>
+<fullyQualifiedTypeName name="com.spring.controller.EmployeeAutowiredByTypeService"/>
+</qualifiedTypeNameHistroy>

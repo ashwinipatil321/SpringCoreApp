@@ -1,0 +1,5 @@
+package com.hellowSpring.controller;
+
+public class HelloWorldImpl {
+
+}

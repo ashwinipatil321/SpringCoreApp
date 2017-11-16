@@ -1,0 +1,5 @@
+INDEX VERSION 1.130+/home/bridgeit/Ashwini/SpringCoreApp/.metadata/.plugins/org.eclipse.jdt.core
+1599636991.index
+2089055931.index
+1232175904.index
+2233533174.index

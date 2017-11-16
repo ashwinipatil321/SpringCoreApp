@@ -1,0 +1,6 @@
+package com.hellowSpring.model;
+
+public class HelloWorld {
+	 void sayHello(String name);
+	}
+

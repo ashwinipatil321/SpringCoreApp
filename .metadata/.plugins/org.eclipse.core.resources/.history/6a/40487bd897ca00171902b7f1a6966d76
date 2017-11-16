@@ -1,0 +1,18 @@
+package com.helloSpring.Configuration;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Description;
+
+import com.hellowSpring.controller.HelloWorldImpl;
+import com.hellowSpring.model.HelloWorld;
+
+@Configuration
+public class HelloWorldConfig {
+
+    @Bean(name="helloWorld")
+    @Description("This is a sample HelloWorld Bean")
+    public HelloWorld helloWorld() {
+        return new HelloWorldImpl();
+}
+}

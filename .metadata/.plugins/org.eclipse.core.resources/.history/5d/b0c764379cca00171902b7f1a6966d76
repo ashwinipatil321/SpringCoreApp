@@ -1,0 +1,6 @@
+package com.dependancyInjection.model;
+
+public class Communication {
+    private Messaging messaging;
+
+}

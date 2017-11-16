@@ -1,0 +1,5 @@
+package com.helloSpring.Configuration;
+
+public class HelloWorldConfig {
+
+}

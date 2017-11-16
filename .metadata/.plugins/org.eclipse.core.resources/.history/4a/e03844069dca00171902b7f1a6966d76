@@ -1,0 +1,11 @@
+package com.dependancyInjection.Controller;
+import com.dependancyInjection.model.Messaging;
+public class Communication implements Messaging {
+    private Messaging messaging;
+    public void setMessaging(Messaging messaging){
+        this.messaging = messaging;
+    }
+    public void communicate(){
+        messaging.sendMessage();
+    }
+}

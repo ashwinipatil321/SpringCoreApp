@@ -1,0 +1,12 @@
+package com.spring.controller;
+
+import com.spring.model.Employee;
+
+public class EmployeeService {
+	private Employee employee;
+
+	public EmployeeService(Employee employee) {
+		super();
+		this.employee = employee;
+	}
+}

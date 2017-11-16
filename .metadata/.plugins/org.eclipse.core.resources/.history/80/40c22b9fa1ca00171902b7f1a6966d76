@@ -1,0 +1,5 @@
+package com.denpendancyInjection.model;
+
+public interface Encryption {
+
+}

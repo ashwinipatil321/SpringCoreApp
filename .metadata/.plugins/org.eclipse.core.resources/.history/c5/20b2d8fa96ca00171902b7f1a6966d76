@@ -1,0 +1,5 @@
+package com.hellowSpring.model;
+
+public class HelloWorld {
+
+}
