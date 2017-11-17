@@ -1,3 +1,7 @@
 1510817739780	Rename resource 'SpringDependencyInjection'
 1510817938722	Rename resource 'SpringDependancyInjection'
 1510835193431	Delete resource 'BeanLazyload'
+1510891027137	Delete resource 'SpringAutoWiring'
+1510899479798	Delete resource 'AutowireUsingAnnotation'
+1510900698250	Rename resource 'autowireSpring'
+1510920363235	Delete resource 'jdbcTemplate'

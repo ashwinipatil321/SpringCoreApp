@@ -1,0 +1,41 @@
+package com.Autowiring.AutowireUsingAnnotation;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.support.AbstractApplicationContext;
+
+import com.autowireAnnotation.model.Application;
+import com.autowireAnnotation.model.Driver;
+import com.autowireAnnotation.model.Employee;
+import com.autowireAnnotation.model.Performer;
+public class App 
+{
+	@SuppressWarnings("resource")
+	public static void main( String[] args )
+	{
+		AbstractApplicationContext context = new AnnotationConfigApplicationContext(
+				AppConfig.class);
+		 ApplicationContext applicationContext = new 
+				 ClassPathXmlApplicationContext("Spring.xml");
+		// Byname Autowiring
+
+		Application application = (Application) context.getBean("application");
+		System.out.println("Application Details : " + application);
+		// ByType Autowiring
+		Employee employee = (Employee) context.getBean("employee");
+		System.out.println("Employee Details : " + employee);
+
+		// By Constructor Autowiring
+		Performer performer = (Performer) context.getBean("performer");
+		System.out.println("Performer Details : " + performer);
+
+		// Setter Autowiring
+		Driver driver = (Driver) context.getBean("driver");
+		System.out.println("Driver Details : " + driver);
+
+		/*Bond bond = (Bond) context.getBean("bond");
+		bond.showCar();*/
+	}
+
+}
+

@@ -1,0 +1,5 @@
+package com.hibernateAndSpring.Dao;
+
+public interface EmployeeDao {
+
+}

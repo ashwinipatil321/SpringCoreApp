@@ -1,0 +1,9 @@
+package com.hibernateAndSpringIntegration.Configuration;
+
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+@Configuration
+@ComponentScan(basePackages="/home/bridgeit/Ashwini/SpringCoreApp/HibernateAndSpringIntegration/src/main/java/com/Autowiring/HibernateAndSpringIntegration")
+public class AppConfig {
+
+}

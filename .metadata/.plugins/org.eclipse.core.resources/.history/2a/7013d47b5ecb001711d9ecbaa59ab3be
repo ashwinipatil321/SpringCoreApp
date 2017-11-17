@@ -1,0 +1,12 @@
+package com.autowireAnnotation.model;
+
+public class ApplicationUser {
+	private ApplicationUser applicationUser;
+
+	public ApplicationUser getApplicationUser() {
+		return applicationUser;
+	}
+	public void setApplicationUser(ApplicationUser applicationUser) {
+		this.applicationUser = applicationUser;
+	}
+}

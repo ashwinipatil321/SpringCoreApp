@@ -1,0 +1,8 @@
+package com.hibernateAndSpring.model;
+
+public class Snippet {
+	public static void main(String[] args) {
+		com.hibernateAndSpring.model
+	}
+}
+

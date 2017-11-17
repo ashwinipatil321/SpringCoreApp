@@ -1,0 +1,5 @@
+package com.autowiredByType.model;
+
+public class Employee {
+    private EmployeeAddress address;
+}

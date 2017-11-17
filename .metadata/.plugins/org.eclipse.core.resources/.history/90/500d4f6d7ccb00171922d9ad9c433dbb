@@ -1,0 +1,5 @@
+package com.hibernateAndSpring.model;
+
+public class Employee {
+
+}

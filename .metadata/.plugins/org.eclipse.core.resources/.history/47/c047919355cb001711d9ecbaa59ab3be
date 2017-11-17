@@ -1,0 +1,5 @@
+package com.autowireAnnotation.model;
+
+public class Driver {
+
+}

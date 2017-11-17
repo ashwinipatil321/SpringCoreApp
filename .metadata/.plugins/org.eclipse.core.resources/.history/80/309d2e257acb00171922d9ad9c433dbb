@@ -1,0 +1,5 @@
+package com.hibernateAndSpringIntegration.Configuration;
+
+public class AppConfig {
+
+}

@@ -1,0 +1,5 @@
+package com.autowire.model;
+
+public class ClassB {
+
+}

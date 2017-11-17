@@ -1,0 +1,26 @@
+package com.hibernateAndSpringIntegration.Configuration;
+
+import org.hibernate.cfg.Environment;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.PropertySource;
+import org.springframework.ejb.access.LocalStatelessSessionProxyFactoryBean;
+import org.springframework.orm.hibernate3.LocalSessionFactoryBean;
+import org.springframework.transaction.annotation.EnableTransactionManagement;
+
+@Configuration
+@EnableTransactionManagement
+@ComponentScan({ "com.Autowiring.HibernateAndSpringIntegration" })
+@PropertySource(value = { "classpath:application.properties" })
+public class HibernateConfiguration {
+    @Autowired
+    private Environment environment;
+    
+    public LocalSessionFactoryBean  sessionFactory() 
+    {
+        LocalSessionFactoryBean sessionFactory = new LocalSessionFactoryBean();
+		return sessionFactory;    	
+    }
+
+}

@@ -1,0 +1,8 @@
+package com.hibernateAndSpringIntegration.Configuration;
+
+import org.springframework.context.annotation.ComponentScan;
+
+@ComponentScan
+public class AppConfig {
+
+}

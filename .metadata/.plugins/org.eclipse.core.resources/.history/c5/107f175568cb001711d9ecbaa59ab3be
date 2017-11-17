@@ -1,0 +1,9 @@
+package com.hibernateAndSpringIntegration.Configuration;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+@E
+public class HibernateConfiguration {
+
+}

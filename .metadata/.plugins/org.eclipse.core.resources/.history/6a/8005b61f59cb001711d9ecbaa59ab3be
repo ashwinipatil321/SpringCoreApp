@@ -1,0 +1,12 @@
+package com.autowireAnnotation.model;
+
+public class Application {
+
+	@Resource(name="applicationUser")
+	private ApplicationUser user;
+
+	@Override
+	public String toString() {
+		return "Application [user=" + user + "]";
+	}
+}

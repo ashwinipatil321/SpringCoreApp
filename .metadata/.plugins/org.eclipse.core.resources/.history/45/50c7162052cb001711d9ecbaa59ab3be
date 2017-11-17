@@ -1,0 +1,12 @@
+package com.autowire.model;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+public class ClassB {
+
+	public ClassB() {
+		System.out.println("b is created");
+	}
+	void print(){
+		System.out.println("hello b");}  
+}
